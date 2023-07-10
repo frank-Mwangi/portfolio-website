@@ -20,7 +20,7 @@ const Bio = () => {
 };
 
 const Wrapper = styled.section`
-  background: var(--gray-50);
+  background: var(--gray-300);
   padding: 3rem 2rem;
   .center-container {
     h2 {

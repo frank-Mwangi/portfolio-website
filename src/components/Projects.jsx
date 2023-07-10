@@ -64,7 +64,7 @@ const Projects = () => {
 };
 
 const Wrapper = styled.div`
-  background: var(--gray-50);
+  background: var(--gray-400);
   padding: 3rem 2rem;
   .center-container {
     h2 {

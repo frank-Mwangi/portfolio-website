@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { AiOutlineMail, FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -8,48 +9,52 @@ const Footer = () => {
         <span>Contact</span> me
       </h2>
       <div className="underline"></div>
-      <ul>
-        <a href="#" rel="noreferrer">
-          <AiOutlineMail />
-        </a>
-        kungofrank@gmail.com
-      </ul>
-      <ul>
-        LinkedIn
-        <a
-          href="https://www.linkedin.com/in/francis-mwangi-053745220/"
-          target="_blank"
-          rel="noreferrer"
-        ></a>
-      </ul>
-      <ul>
-        Medium
-        <a
-          href="https://medium.com/@kungofrank"
-          target="_blank"
-          rel="noreferrer"
-        ></a>
-      </ul>
-      <ul>
-        <a
-          href="https://github.com/frank-Mwangi"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaGithub />
-        </a>
-        Github
-      </ul>
+      <div className="center-container">
+        <ul>
+          <a href="#" rel="noreferrer">
+            <AiOutlineMail />
+          </a>
+          kungofrank@gmail.com
+        </ul>
+        <ul>
+          <a
+            href="https://www.linkedin.com/in/francis-mwangi-053745220/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin />
+            LinkedIn
+          </a>
+        </ul>
+        <ul>
+          <a
+            href="https://medium.com/@kungofrank"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaMedium />
+            Medium
+          </a>
+        </ul>
+        <ul>
+          <a
+            href="https://github.com/frank-Mwangi"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaGithub />
+            Github
+          </a>
+        </ul>
+      </div>
     </Wrapper>
   );
 };
 
 const Wrapper = styled.footer`
-  border: 1px solid black;
-  background: var(--gray-50);
+  background: var(--gray-200);
   padding: 3rem 2rem;
   h2 {
-    border: 2px solid black;
     text-transform: capitalize;
     text-align: center;
     letter-spacing: var(--letter-spacing);
@@ -57,6 +62,10 @@ const Wrapper = styled.footer`
     span {
       color: var(--gray-500);
     }
+  }
+  .center-container {
+    display: flex;
+    justify-content: center;
   }
   .title {
     margin-bottom: 1rem;
