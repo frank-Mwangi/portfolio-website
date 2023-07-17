@@ -51,8 +51,13 @@ const Footer = () => {
 };
 
 const Wrapper = styled.footer`
-  background: var(--gray-200);
+  background: #494c4b;
+  //height: 150px;
   padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   h2 {
     text-transform: capitalize;
     text-align: center;
@@ -66,9 +71,10 @@ const Wrapper = styled.footer`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 1 rem;
   }
   .title {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
   }
   .underline {
     width: 5rem;

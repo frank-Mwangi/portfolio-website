@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 const Navbar = () => {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    section.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <Nav>
       <div className="center-container">

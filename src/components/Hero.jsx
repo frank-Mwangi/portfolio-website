@@ -7,25 +7,32 @@ const Hero = () => {
           <span> Francis </span> Mwangi, K.
         </h2>
         <div className="underline"></div>
-        <h4>Everything is figure-outable!</h4>
-        <p>
+        {/* <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
           ipsam nesciunt fuga consectetur consequatur distinctio nostrum omnis
           deleniti, neque amet repellat ad perspiciatis adipisci? Voluptates
           adipisci voluptatum eius totam deserunt.
-        </p>
+        </p> */}
+      </div>
+      <div className="hero-tagline">
+        <h4>Everything is figure-outable!</h4>
       </div>
     </Wrapper>
   );
 };
 
 const Wrapper = styled.section`
+  position: relative;
   background-color: var(--gray-200);
-  background-image: url("/hero-img-5.jpg");
+  background-image: url("/Hero3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 
   .Hero-title {
     font-size: 2.5rem;
@@ -33,16 +40,24 @@ const Wrapper = styled.section`
     letter-spacing: 4px;
     margin: 0;
     span {
-      color: var(--gray-400);
+      color: #e8db7d;
     }
   }
   .hero-tagline {
-    margin: 0;
+    margin-top: auto;
+
     color: var(--white);
+
     letter-spacing: var(--letter-spacing);
-    text-transform: capitalize;
+    //text-transform: capitalize;
   }
   .center-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     text-align: center;
   }
   .underline {

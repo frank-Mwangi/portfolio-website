@@ -9,10 +9,11 @@ const Bio = () => {
         </h2>
         <div className="underline"></div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-          consectetur. Incidunt quos id dolore nesciunt quisquam cum nam commodi
-          provident nulla similique, blanditiis quidem neque unde in qui quae
-          minus.
+          Francis is a passionate web developer specializing in creating
+          exceptional online experiences. He thrives in creating user-friendly
+          interfaces and seamless functionality that captivates users. If you're
+          looking for a skilled developer to transform your ideas into
+          compelling online experieces, let's connect.
         </p>
       </div>
     </Wrapper>
@@ -20,7 +21,7 @@ const Bio = () => {
 };
 
 const Wrapper = styled.section`
-  background: var(--gray-300);
+  background: var(--gray-200);
   padding: 3rem 2rem;
   .center-container {
     h2 {

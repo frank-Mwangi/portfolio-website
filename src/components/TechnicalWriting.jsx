@@ -26,7 +26,7 @@ const TechnicalWriting = () => {
             expedita nulla, temporibus est earum asperiores.
           </p>
           <div className="btn-container">
-            <button className="btn">Read full article</button>
+            <button className="btn">Continue ...</button>
           </div>
           <h4 className="article-title">
             Styling CSS in React: A Comprehensive Guide
@@ -38,7 +38,7 @@ const TechnicalWriting = () => {
             expedita nulla, temporibus est earum asperiores.
           </p>
           <div className="btn-container">
-            <button className="btn">Read full article</button>
+            <button className="btn">Continue ...</button>
           </div>
           <h4 className="article-title">
             Styling CSS in React: A Comprehensive Guide
@@ -50,7 +50,7 @@ const TechnicalWriting = () => {
             expedita nulla, temporibus est earum asperiores.
           </p>
           <div className="btn-container">
-            <button className="btn">Read full article</button>
+            <button className="btn">Continue ...</button>
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@ const TechnicalWriting = () => {
 };
 
 const Wrapper = styled.div`
-  background: var(--gray-50);
+  background: var(--gray-200);
   padding: 3rem 2rem;
   .center-container {
     h2 {
