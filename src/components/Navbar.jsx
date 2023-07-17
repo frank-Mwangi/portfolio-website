@@ -6,13 +6,19 @@ const Navbar = () => {
       <div className="center-container">
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="#Hero">Home</a>
           </li>
           <li>
-            <a href="#">Home</a>
+            <a href="#Bio">Bio</a>
           </li>
           <li>
-            <a href="#">Home</a>
+            <a href="#Projects">Projects</a>
+          </li>
+          <li>
+            <a href="#Skills">Skills</a>
+          </li>
+          <li>
+            <a href="#TechnicalWriting">Technical Writing</a>
           </li>
         </ul>
       </div>

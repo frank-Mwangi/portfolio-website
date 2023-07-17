@@ -16,36 +16,35 @@ const Footer = () => {
           </a>
           kungofrank@gmail.com
         </ul>
-        <ul>
-          <a
-            href="https://www.linkedin.com/in/francis-mwangi-053745220/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedin />
-            LinkedIn
-          </a>
-        </ul>
-        <ul>
-          <a
-            href="https://medium.com/@kungofrank"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaMedium />
-            Medium
-          </a>
-        </ul>
-        <ul>
-          <a
-            href="https://github.com/frank-Mwangi"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub />
-            Github
-          </a>
-        </ul>
+        <div>
+          <ul>
+            <a
+              href="https://www.linkedin.com/in/francis-mwangi-053745220/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+          </ul>
+          <ul>
+            <a
+              href="https://medium.com/@kungofrank"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaMedium />
+            </a>
+          </ul>
+          <ul>
+            <a
+              href="https://github.com/frank-Mwangi"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub />
+            </a>
+          </ul>
+        </div>
       </div>
     </Wrapper>
   );
@@ -65,6 +64,7 @@ const Wrapper = styled.footer`
   }
   .center-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
   }
   .title {
@@ -100,6 +100,10 @@ const Wrapper = styled.footer`
       background: var(--gray-700);
       transform: scale(1.1);
     }
+  }
+  div {
+    display: flex;
+    flex-direction: row;
   }
 `;
 
