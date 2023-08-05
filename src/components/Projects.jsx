@@ -16,29 +16,56 @@ const Projects = () => {
           </h4>
           <img />
           <p className="project-description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste est
-            laudantium assumenda ea libero quam sit deserunt quasi iure officiis
-            earum harum, esse dicta incidunt sint neque. Voluptate, temporibus
-            saepe?
+            This is a mock eCommerce website for A2Z, a leading computer store
+            in Nairobi, Kenya. Find your dream laptop, filter by price, color,
+            or brand. A2Z - Digitally yours!
             <div className="btn-container">
-              <button className="btn">Go to site</button>
-              <button className="btn">Project repo</button>
+              <a
+                href="https://a2zlandingpage.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn">Go to site</button>
+              </a>
+              <a
+                href="https://github.com/Njaaga-Gakure/A2Z-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn">Project repo</button>
+              </a>
             </div>
           </p>
         </div>
         <div>
           <h4 className="project-title">
-            <span>Meme</span> Generator
+            <span>Wozaa</span> App
           </h4>
           <img />
           <p className="project-description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste est
-            laudantium assumenda ea libero quam sit deserunt quasi iure officiis
-            earum harum, esse dicta incidunt sint neque. Voluptate, temporibus
-            saepe?
+            Wozaa is a microblogging social media site, akin to Twitter (Well, X
+            now). It is a purely frontend application, built to utilize data
+            from the JSON Placeholder API. Anonymous and non-premium users are
+            limited to 20 posts daily. Users can log in using their username or
+            email and zipcode as password. Authenticated users can follow other
+            users and view their friends' posts in a dedicated "following"
+            section. Authenticated users can also pay for premium membership,
+            which grants them access to all posts.
             <div className="btn-container">
-              <button className="btn">Go to site</button>
-              <button className="btn">Project repo</button>
+              <a
+                href="https://wozaa.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn">Go to site</button>
+              </a>
+              <a
+                href="https://github.com/frank-Mwangi/Wozaa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn">Project repo</button>
+              </a>
             </div>
           </p>
         </div>
@@ -48,13 +75,24 @@ const Projects = () => {
           </h4>
           <img />
           <p className="project-description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste est
-            laudantium assumenda ea libero quam sit deserunt quasi iure officiis
-            earum harum, esse dicta incidunt sint neque. Voluptate, temporibus
-            saepe?
+            This is a simplistic website that generates quotes at random, as its
+            nomenclature suggests. If you're stuck and looking for inspiration,
+            click the link below.
             <div className="btn-container">
-              <button className="btn">Go to site</button>
-              <button className="btn">Project repo</button>
+              <a
+                href="https://sporadicquotegenerator.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn">Go to site</button>
+              </a>
+              <a
+                href="https://github.com/frank-Mwangi/quote_generator"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="btn">Project repo</button>
+              </a>
             </div>
           </p>
         </div>

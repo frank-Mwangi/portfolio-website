@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import { FaReact, FaPython, FaHtml5, FaCss3Alt, FaGit } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
+import { DiMysql } from "react-icons/di";
 
 const Skills = () => {
   return (
@@ -10,11 +13,34 @@ const Skills = () => {
         </h2>
         <div className="underline"></div>
         <div className="btn-container">
-          <button className="btn">React</button>
-          <button className="btn">Javascript</button>
-          <button className="btn">Python</button>
-          <button className="btn">C</button>
-          <button className="btn">HTML + CSS</button>
+          <div>
+            <FaReact />
+            <span>React</span>
+          </div>
+          <div>
+            <SiJavascript />
+            <span>JavaScript</span>
+          </div>
+          <div>
+            <FaPython />
+            <span>Python</span>
+          </div>
+          <div>
+            <FaHtml5 />
+            <span>HTML</span>
+          </div>
+          <div>
+            <FaCss3Alt />
+            <span>CSS</span>
+          </div>
+          <div>
+            <DiMysql />
+            <span>Mysql</span>
+          </div>
+          <div>
+            <FaGit />
+            <span>Git</span>
+          </div>
         </div>
       </div>
     </Wrapper>
@@ -54,6 +80,11 @@ const Wrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+    div {
+      span {
+        margin: 1rem;
+      }
+    }
   }
   .btn {
     background: white;
