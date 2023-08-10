@@ -21,9 +21,9 @@ const Navbar = () => {
           <li>
             <a href="#Skills">Skills</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#TechnicalWriting">Technical Writing</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </Nav>
