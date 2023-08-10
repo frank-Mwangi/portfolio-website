@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Navbar,
-  Hero,
-  Bio,
-  Projects,
-  Skills,
-  TechnicalWriting,
-  Footer,
-} from "./components";
+import { Navbar, Hero, Bio, Projects, Skills, Footer } from "./components";
 
 const App = () => {
   return (
@@ -25,9 +17,9 @@ const App = () => {
       <section id="Skills">
         <Skills />
       </section>
-      <section id="TechnicalWriting">
+      {/* <section id="TechnicalWriting">
         <TechnicalWriting />
-      </section>
+      </section> */}
       <Footer />
     </main>
   );

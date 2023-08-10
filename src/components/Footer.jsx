@@ -51,7 +51,7 @@ const Footer = () => {
 };
 
 const Wrapper = styled.footer`
-  background: #494c4b;
+  background: var(--gray-100);
   //height: 150px;
   padding: 3rem 2rem;
   display: flex;
